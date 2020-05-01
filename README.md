@@ -17,4 +17,13 @@ python3.7 -m venv env
 pip install pip-tools
 pip-compile --output-file requirements/base.txt requirements.in/base.txt
 pip-sync requirements/base.txt
+python src/covid.py
 ```
+
+## The output
+
+The Belgrade data is a bit off. The original dataset that I obtained from <covid19.data.gov.rs> did not contain information for dates from 30.3.2020. - 15.4.2020. The missing data was calculated using available growth factor data and rounded up, but the numbers are off by 137 people (surplus). The error is because of rounding.
+
+![Belgrade](/images/belgrade.pngs)
+
+![Serbia](/images/serbia.png)
