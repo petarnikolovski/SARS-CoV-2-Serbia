@@ -83,7 +83,7 @@ if __name__ == '__main__':
     belgrade = covid['Belgrade'].tolist()
     serbia = covid['Serbia'].tolist()
 
-    # There are discepencies here with the official data - this is because
+    # There are discrepancies here with the official data - this is because
     # my data is missing data from 30.3.2020. - 15.4.2020. -> my interpolated
     # data is off by 137 people (surplus). I suspect that this is probably
     # due to rounding errors in growth factors
