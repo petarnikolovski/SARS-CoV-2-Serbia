@@ -22,7 +22,7 @@ python src/covid.py
 
 ## The output
 
-The Belgrade data is a bit off. The original dataset that I obtained from [covid19.data.gov.rs](https://covid19.data.gov.rs/infected) did not contain information for dates from 30.3.2020. - 15.4.2020. The missing data was calculated using available growth factor data and rounded up, but the numbers are off by 137 people (surplus). The error is because of rounding.
+The Belgrade data is a bit off. The original dataset that I obtained from [covid19.data.gov.rs](https://covid19.data.gov.rs/infected) did not contain information for dates from 30.3.2020. - 15.4.2020. The missing data was calculated using available growth factor data and rounded up, but the numbers are off by 137 people (surplus). The error is because of rounding and the fact that the growth factor used is calculated for whole country and not the individual city.
 
 ![Belgrade](images/Belgrade.png)
 
