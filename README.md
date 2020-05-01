@@ -1,4 +1,4 @@
-# Matplotlib of COVID-19 data for Serbia
+# COVID-19 data for Serbia using Plotly
 
 This repository contains script that plots log-log diagram of number of people infecred by SARS-CoV-2 (Covid-19) virus.
 
@@ -22,8 +22,8 @@ python src/covid.py
 
 ## The output
 
-The Belgrade data is a bit off. The original dataset that I obtained from <covid19.data.gov.rs> did not contain information for dates from 30.3.2020. - 15.4.2020. The missing data was calculated using available growth factor data and rounded up, but the numbers are off by 137 people (surplus). The error is because of rounding.
+The Belgrade data is a bit off. The original dataset that I obtained from [covid19.data.gov.rs](https://covid19.data.gov.rs/infected) did not contain information for dates from 30.3.2020. - 15.4.2020. The missing data was calculated using available growth factor data and rounded up, but the numbers are off by 137 people (surplus). The error is because of rounding.
 
-![Belgrade](/images/belgrade.pngs)
+![Belgrade](images/Belgrade.png)
 
-![Serbia](/images/serbia.png)
+![Serbia](images/Serbia.png)
