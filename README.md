@@ -1,6 +1,6 @@
 # COVID-19 data for Serbia using Plotly
 
-This repository contains script that plots log-log diagram of number of people infecred by SARS-CoV-2 (Covid-19) virus. You can read full article [here](https://softwareadept.xyz/2020/05/log-log-plot-of-covid-19-using-plotly/).
+This repository contains script that plots log-log diagram of number of people infecred by SARS-CoV-2 (Covid-19) virus. You can read the full article [here](https://softwareadept.xyz/2020/05/log-log-plot-of-covid-19-using-plotly/).
 
 Source of the data is:
 
